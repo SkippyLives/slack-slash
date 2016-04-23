@@ -12,12 +12,12 @@
 
 
 ;; code therapy
-
 (def hook-url "")
 (def roll-auth-token "")
 (def rps-auth-token "")
 
-(def dicebot
+
+(def dicebot 
   {:username "dicebot"
    :icon_emoji ":game_die:"})
 
@@ -83,3 +83,4 @@
 
 (defn -main []
   (run-jetty app {:port 3001}))
+
